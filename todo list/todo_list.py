@@ -48,7 +48,7 @@ while True:
     elif choice == "3":
         remove_task(task)
     elif choice == "4":
-        print("Exiting the To-Do List Manager. Goodbye!")
+        print("Exiting the To-Do List Manager. Adios!")
         break
     else:
         print("Invalid choice. Please select a valid option.")
