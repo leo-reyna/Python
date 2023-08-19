@@ -4,8 +4,12 @@
 # Work in progress.
 # To Do List - Basic Python
 
+
+import os
+
 # Initialize an empty list to store tasks
 tasks = []
+os.system('cls')
 
 # Function to add a task
 def add_task(task):  # where task in parenthesis is the action of the user wants to save
