@@ -1,7 +1,7 @@
 # todo_list.py
 # LR
 # Aug 18 2023
-# Work in progress. 
+# Work in progress.
 # To Do List - Basic Python
 
 # Initialize an empty list to store tasks
