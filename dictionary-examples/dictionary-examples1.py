@@ -13,5 +13,5 @@ print(Dict)
 # with Mixed keys
 Dict = {'Name': 'Geeks', 1: [1, 2, 3, 4]}
 print("\nDictionary with the use of Mixed Keys: ")
-print(len(Dict))
+print(len(Dict)) # 2 
 print(Dict)

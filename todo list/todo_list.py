@@ -1,7 +1,6 @@
 # todo_list.py
 # LR
-# Aug 18 2023
-# Work in progress.
+# Aug 18 2023  Work in progress.
 # To Do List - Basic Python
 
 
