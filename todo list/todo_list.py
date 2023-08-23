@@ -10,15 +10,18 @@ import os
 tasks = []
 os.system('cls')
 
+
 # Function to add a task
-def add_task(task):  # where task in parenthesis is the action of the user wants to save
-    tasks.append(task) # appending 
+def add_task(task):  # where task in parentheses is the action of the user wants to save
+    tasks.append(task)  # appending 
     print("Task added to list:", task)
 
-# Function to remove a task
+
+# Function to remove a task    
 def remove_task(task):
-    tasks.remove(task) # removing from list
+    tasks.remove(task)  # removing from list
     print("Task removed from list", task)
+
 
 # Function to display all tasks
 def display_tasks():
@@ -28,6 +31,7 @@ def display_tasks():
             print(f"{idx}. {task}")
     else:
         print("No tasks to display.")
+
 
 # Main loop
 while True:
