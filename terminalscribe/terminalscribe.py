@@ -2,7 +2,6 @@
 # RL 
 # Essential Python Exercises
 
-
 import os
 import time
 from termcolor import colored, cprint
