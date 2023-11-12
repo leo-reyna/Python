@@ -33,6 +33,7 @@ def exit_app():
 
 def personalized_greeting():
     user_name = simpledialog.askstring("Input", "What's your name?")
+    user_name = user_name.strip() # remove whitespaces from both ends
     messagebox.showinfo("Welcome", f"Hello, {user_name}! Welcome to the Magic 8-Ball.")
 
 # Create the main window
