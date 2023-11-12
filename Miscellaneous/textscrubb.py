@@ -1,5 +1,6 @@
 # tkinter 
 # LR 2023
+# Examples
 
 import os
 import tkinter as tk
@@ -9,14 +10,15 @@ def clear_screen():
     os.system("clear" if os.name == "posix" else "cls")
 
 def scrubber_window():
-    scrubtextbox = simpledialog.askstring("Input", "What is the URL?")
+    scrubtextbox = simpledialog.askstring("Input", "What is the URL that you want to remove 'https://' from?")
     scrubtextbox = scrubtextbox.strip()
     cleaned = scrubtextbox.removeprefix('https://')
     messagebox.showinfo("Welcome", cleaned)
-
+   
 
 root = tk.Tk()
 root.withdraw()
+root.destroy()
 
 def main():
     scrubber_window()
