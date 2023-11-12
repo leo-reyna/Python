@@ -1,6 +1,9 @@
 # Functions  -- Loops
-# Nov 10 2023
+# 
+import os
 
+def clear_screen():
+    os.system("cls" if os.system =="sofix" else "cls")
 
 def calcTotal():
     total = 0
@@ -20,5 +23,12 @@ def stringo():
 
 stringo()
 
-# Magic 8 Ball Function
 
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+if __name__ == '__main__':
+    clear_screen()
+    print_hi('VsCode!')

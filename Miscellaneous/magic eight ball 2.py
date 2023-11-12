@@ -19,7 +19,7 @@ def get_answer(answer_number):
     return answers.get(answer_number, 'Invalid answer number')
 
 def get_user_question():
-    return input("\nAsk a yes/no question: ")
+    return input("\nAsk a question in your head or say it out loud and once done enter y/n to complete: ")
 
 def display_answer(fortune):
     print(f'\nMagic 8-Ball says: {fortune}')
