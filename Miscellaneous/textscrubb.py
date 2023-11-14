@@ -1,6 +1,6 @@
 # tkinter 
-# LR 2023
-# Examples
+# LR Nov 2023
+# Removes the "https://"" from a webaddress - using Tkinter
 
 import os
 import tkinter as tk
@@ -15,14 +15,12 @@ def scrubber_window():
     cleaned = scrubtextbox.removeprefix('https://')
     messagebox.showinfo("Welcome", cleaned)
    
-
 root = tk.Tk()
 root.withdraw()
 root.destroy()
 
 def main():
     scrubber_window()
-
 
 if __name__ == '__main__':
     clear_screen()
