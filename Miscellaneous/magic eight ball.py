@@ -5,7 +5,9 @@ import os
 os.system("clear")
 os.system("cls")
 
+
 def getAnswer(answerNumber):
+ 
     if answerNumber == 1:
         return 'It is certain'
     elif answerNumber == 2:
@@ -25,5 +27,6 @@ def getAnswer(answerNumber):
     elif answerNumber == 9:
         return 'Very Doubtful'
 r = random.randint(1,9)
+
 fortune = getAnswer(r)
 print (fortune)
