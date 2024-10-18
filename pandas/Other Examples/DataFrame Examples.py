@@ -39,10 +39,17 @@ data2 = {'name':['Jack', 'OJ', 'Jerome'], 'occupation': ['cleaner','actor','arti
 # df = pd.DataFrame(data, index=['rnk1', 'rnk2', 'rnk3'])
 # without index:
 df1 = pd.DataFrame(data)
-df2 =pd.DataFrame(data2)
+df2 = pd.DataFrame(data2)
 
 # merging 2 dataframes
 df_merged = pd.concat([df1, df2], ignore_index=True, sort=False) 
 print (df_merged)
 print(f"This set contains {len(df_merged)} rows of data")
 
+# import the pandas library and aliasing as pd
+
+import pandas as pd
+import numpy as np
+data = np.array(['a','b','c','d'])
+s = pd.Series(data,index=[100,101,102,103])
+print (s)
