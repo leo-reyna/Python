@@ -58,6 +58,6 @@ print (s)
 import pandas as pd
 import numpy as np
 data = {'a' : 0, 'b' : 1., 'c' : 4.}
-s = pd.Series(data, index=['a', 'b', 'c', 'd'])
+s = pd.Series(data, index=['a', 'b', 'c', 'd']) # note the 'd' value is NaN
 print(s)
 
